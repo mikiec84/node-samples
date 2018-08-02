@@ -20,8 +20,7 @@ const readline = require('readline');
 const {google} = require('googleapis');
 const GoogleAuth = require('google-auth-library');
 
-// If modifying these scopes, delete your previously saved credentials
-// at ~/.credentials/reseller-nodejs-quickstart.json
+// If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/apps.order'];
 const TOKEN_PATH = 'token.json';
 
